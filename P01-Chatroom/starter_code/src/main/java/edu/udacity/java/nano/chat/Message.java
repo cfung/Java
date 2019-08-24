@@ -1,5 +1,13 @@
 package edu.udacity.java.nano.chat;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import javax.websocket.EncodeException;
+import javax.websocket.Encoder;
+import javax.websocket.EndpointConfig;
+import java.io.IOException;
+
 /**
  * WebSocket message model
  */
@@ -8,13 +16,15 @@ public class Message {
     // TODO: add message model. ENTER, CHAT, LEAVE
 
     private String from_user;
-    private String to_user;
+    private String msg;
     private MessageType type;
+    private int onlineCount;
 
-    private enum MessageType {
+    public enum MessageType {
         ENTER,
         CHAT,
-        LEAVE
+        LEAVE,
+        SPEAK
     }
 
     public Message() {}
@@ -36,11 +46,29 @@ public class Message {
         this.from_user = from_user;
     }
 
-    public String getTo_user() {
-        return to_user;
-    }
+    public String getContent() { return msg; }
 
-    public void setTo_user(String to_user) {
-        this.to_user = to_user;
+    public void setContent(String msg) { this.msg =  msg; }
+
+    public int getOnlineCount() { return onlineCount; }
+
+    public void setOnlineCount(int onlineCount) { this.onlineCount = onlineCount; }
+
+    public String getParamsAsJSON() {
+
+        JSONObject jsonObject = new JSONObject();
+
+        try{
+
+            jsonObject.put("username", from_user);
+            jsonObject.put("msg", msg);
+            jsonObject.put("type", type);
+            jsonObject.put("onlineCount", onlineCount);
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return jsonObject.toString();
     }
 }
+
