@@ -39,8 +39,8 @@ public class WebSocketChatServer {
 
 
     private static void sendMessageToAll(String msg) {
-        //TODO: add send message method.
-        System.out.println("starting sendMessageToAll..");
+        //Completed: add send message method.
+
         for (WebSocketChatServer server : chatServers) {
 
             server.sendMessage(msg);
@@ -53,11 +53,9 @@ public class WebSocketChatServer {
      */
     @OnOpen
     public void onOpen(Session session, @PathParam("username") String username) {
-        //TODO: add on open connection.
-        System.out.println("onOpen (username).." + username);
-
+        //Completed: add on open connection.
         this.session = session;
-        //onlineSessions.put(session);
+
         session.getRequestParameterMap();
         chatServers.add(this);
         users.put(session.getId(), username);
@@ -72,40 +70,22 @@ public class WebSocketChatServer {
      */
     @OnMessage
     public void onMessage(Session session, String jsonStr) {
-        //TODO: add send message.
-        //jsonStr.(users.get(session.getId()));
-        /*
-
-        lo Mouhamadou: In Messages: Create String method with the parameters: type, username, message, onlineCount,
-        return the parameters as a new Message using the JSON.toJSONString method (import com.alibaba.fastjson.JSON).
-        In WebSocketChatServer: Create a Message instance and use JSON.parseObject method to add arguments String method and Message class.
-        Use SendMessageToAll method to add the Message String method and parameters(ex. method.getusername()).
-         */
-
-
-        System.out.println("onMessage.." + jsonStr);
+        //Completed: add send message.
         Message message = new Message();
 
         try {
             org.json.JSONObject jsonObject = new JSONObject(jsonStr);
-            System.out.println("onMessage username: " + jsonObject.getString("username"));
-            System.out.println("session ID: " + session.getId());
             String user = jsonObject.getString("username");
             String content = jsonObject.getString("msg");
-
-
             message.setFrom_user(user);
             message.setContent(content);
             message.setType(Message.MessageType.SPEAK);
             message.setOnlineCount(users.size());
 
-
         } catch (JSONException e) {
             e.printStackTrace();
         }
 
-        // {"username":"test","msg":"message", "type":"SPEAK", "onlineCount":users.size()}
-        System.out.println("message to be sent..." + message.getParamsAsJSON());
         sendMessageToAll(message.getParamsAsJSON());
     }
 
@@ -115,12 +95,10 @@ public class WebSocketChatServer {
      */
     @OnClose
     public void onClose(Session session) {
-        //TODO: add close connection.
+        //Completed: add close connection.
         chatServers.remove(this);
-        // TODO: update user
-        System.out.println("num of users before removal...: " + users.size());
+        // Completed: update user
         users.remove(session.getId());
-        System.out.println("num of users after removal...: " + users.size());
     }
 
     /**
@@ -128,12 +106,11 @@ public class WebSocketChatServer {
      */
     @OnError
     public void onError(Session session, Throwable error) {
-        System.out.println("throwing error...");
         error.printStackTrace();
     }
 
     private void sendMessage(String message) {
-        System.out.println("inside sendMessage...");
+
         try {
             this.session.getBasicRemote().sendText(message);
         } catch (IOException e) {
