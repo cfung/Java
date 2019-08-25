@@ -35,21 +35,19 @@ public class WebSocketChatApplication {
     @GetMapping("/index")
     //@RequestMapping(value="/login", method = RequestMethod.POST)
     public ModelAndView index(String username, HttpServletRequest request) throws UnknownHostException {
-        //TODO: add code for login to chatroom.
+
         ModelAndView modelAndView = new ModelAndView("chat");
         modelAndView.addObject("username", username);
 
-        System.out.println("/index is called...");
         return modelAndView;
     }
 
     @RequestMapping(value="/chat", method = RequestMethod.POST)
     public ModelAndView chat(String username, HttpServletRequest request) throws UnknownHostException {
-        //TODO: add code for login to chatroom.
+
         ModelAndView modelAndView = new ModelAndView("chat");
         modelAndView.addObject("username", username);
 
-        System.out.println("/chat is called...");
         return modelAndView;
     }
 }
