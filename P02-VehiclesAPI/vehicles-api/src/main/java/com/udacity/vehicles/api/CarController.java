@@ -12,6 +12,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import javax.validation.Valid;
 
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import org.springframework.hateoas.Resource;
 import org.springframework.hateoas.Resources;
 import org.springframework.http.ResponseEntity;
@@ -29,6 +31,11 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/cars")
+@ApiResponses(value = {
+        @ApiResponse(code=400, message = "This is a bad request, please folow the API documentation for proper params."),
+        @ApiResponse(code=401, message = "Due to security constraints, your access request cannot be authorized."),
+        @ApiResponse(code=500, message = "The server is down.  Please make sure that the Location microservice is up."),
+})
 class CarController {
 
     private final CarService carService;
