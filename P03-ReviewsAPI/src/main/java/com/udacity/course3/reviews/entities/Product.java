@@ -9,28 +9,21 @@ public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
 
     private String name;
     private String description;
 
-    @OneToMany(mappedBy = "product")
-    private List<Review> reviews = new ArrayList<>();
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
+    public Product(Integer id) {
         this.id = id;
     }
 
-    public void setReviews(List<Review> reviews) {
-        this.reviews = reviews;
+    public Integer getId() {
+        return id;
     }
 
-    public  List<Review> getReviews() {
-        return reviews;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -55,7 +48,6 @@ public class Product {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
-                ", reviews=" + reviews +
                 '}';
     }
 }
