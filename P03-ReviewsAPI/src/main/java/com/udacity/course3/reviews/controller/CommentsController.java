@@ -55,13 +55,13 @@ public class CommentsController {
      * List comments for a review.
      *
      * 2. Check for existence of review.
-     * 3. If review not found, return NOT_FOUND.
+     * 3. If review not found, return NOT_FOUND.spp
      * 4. If found, return list of comments.
      *
      * @param reviewId The id of the review.
      */
     @RequestMapping(value = "/reviews/{reviewId}", method = RequestMethod.GET)
-    public List<?> listCommentsForReview(@PathVariable("reviewId") Integer reviewId) {
-        throw new HttpServerErrorException(HttpStatus.NOT_IMPLEMENTED);
+    public ResponseEntity<List<Comment>> listCommentsForReview(@PathVariable("reviewId") Integer reviewId) {
+        return ResponseEntity.ok(commentRepository.findAllByReview(new Review(reviewId)));
     }
 }

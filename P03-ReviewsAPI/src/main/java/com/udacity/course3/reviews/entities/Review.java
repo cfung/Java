@@ -16,6 +16,15 @@ public class Review {
     @ManyToOne
     private Product product;
 
+    public Review() {
+
+    }
+
+    public Review(Integer id) {
+        this.id = id;
+    }
+
+
     public int getId() {
         return id;
     }

@@ -16,7 +16,7 @@ import java.util.List;
 @RequestMapping("/products")
 public class ProductsController {
 
-    // TODO: Wire JPA repositories here
+    // Completed: Wire JPA repositories here
     private ProductRepository productRepository;
 
     public ProductsController(ProductRepository productRepository) {

@@ -14,6 +14,8 @@ public class Product {
     private String name;
     private String description;
 
+    public Product() {}
+
     public Product(Integer id) {
         this.id = id;
     }
