@@ -1,6 +1,7 @@
 package com.udacity.course3.reviews.entities;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 
 @Entity
 public class Comment {
@@ -9,7 +10,9 @@ public class Comment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
+    @NotBlank
     private String title;
+    @NotBlank
     private String commentText;
 
     @ManyToOne
