@@ -32,7 +32,7 @@ public class ProductsController {
      */
     @RequestMapping(value = "/", method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.CREATED)
-    public void createProduct(@Valid Product product) {
+    public void createProduct(@Valid @RequestBody Product product) {
         productRepository.save(product);
     }
 
