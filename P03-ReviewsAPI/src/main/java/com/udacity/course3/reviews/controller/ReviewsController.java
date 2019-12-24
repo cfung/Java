@@ -2,16 +2,21 @@ package com.udacity.course3.reviews.controller;
 
 import com.udacity.course3.reviews.entities.Product;
 import com.udacity.course3.reviews.entities.Review;
+import com.udacity.course3.reviews.entities.mongo.ReviewMongo;
+import com.udacity.course3.reviews.mongo_repository.ReviewMongoRepository;
 import com.udacity.course3.reviews.repository.ProductRepository;
 import com.udacity.course3.reviews.repository.ReviewRepository;
-import org.springframework.http.HttpStatus;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.annotation.Transient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.HttpServerErrorException;
 
 import javax.validation.Valid;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 
 /**
  * Spring REST controller for working with review entity.
@@ -20,12 +25,18 @@ import java.util.Optional;
 public class ReviewsController {
 
     // TODO: Wire JPA repositories here
+    @Autowired
     private final ReviewRepository reviewRepository;
+    @Autowired
     private final ProductRepository productRepository;
+    @Autowired
+    private final ReviewMongoRepository reviewMongoRepository;
 
-    public ReviewsController(ReviewRepository reviewRepository, ProductRepository productRepository) {
+    public ReviewsController(ReviewRepository reviewRepository, ProductRepository productRepository, ReviewMongoRepository reviewMongoRepository) {
         this.reviewRepository = reviewRepository;
         this.productRepository = productRepository;
+       // this.reviewMongoRepository = reviewMongoRepository;
+        this.reviewMongoRepository = reviewMongoRepository;
     }
 
     /**
@@ -46,6 +57,11 @@ public class ReviewsController {
         if (optional.isPresent()) {
 
             review.setProduct(optional.get());
+
+            // save data in MongoDB
+            ReviewMongo reviewMongo = new ReviewMongo();
+            reviewMongoRepository.save(reviewMongo);
+
             return ResponseEntity.ok(reviewRepository.save(review));
 
         } else {
@@ -61,6 +77,12 @@ public class ReviewsController {
      */
     @RequestMapping(value = "/reviews/products/{productId}", method = RequestMethod.GET)
     public ResponseEntity<List<?>> listReviewsForProduct(@PathVariable("productId") Integer productId) {
-        return ResponseEntity.ok(reviewRepository.findAllByProduct(new Product(productId)));
+        List<Integer> reviewIds = reviewRepository.findReviewIdsByProductId(productId);
+        List<String> stringIdsList = new ArrayList<>(reviewIds.size());
+        reviewIds.forEach(id -> stringIdsList.add(id.toString()));
+
+        List<ReviewMongo> reviews = StreamSupport.stream(
+                reviewMongoRepository.findAllById(stringIdsList).spliterator(), false).collect(Collectors.toList());
+        return ResponseEntity.ok(reviews);
     }
 }
