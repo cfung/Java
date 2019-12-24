@@ -2,6 +2,7 @@ package com.udacity.course3.reviews.entities;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 @Entity
 public class Review {
@@ -14,7 +15,7 @@ public class Review {
     private String title;
     @NotBlank
     private String reviewText;
-    @NotBlank
+    @NotNull
     private boolean recommended;
 
     @ManyToOne
