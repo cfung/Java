@@ -9,7 +9,7 @@ import javax.persistence.GenerationType;
 import java.util.List;
 
 @Document("review")
-public class reviewMongo {
+public class ReviewMongo {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,14 +19,14 @@ public class reviewMongo {
     private Product product;
     private List<commentMongo> comments;
 
-    public reviewMongo(String title, String text, Product product, List<commentMongo> comments) {
+    public ReviewMongo(String title, String text, Product product, List<commentMongo> comments) {
         this.title = title;
         this.text = text;
         this.product = product;
         this.comments = comments;
     }
 
-    public reviewMongo() {
+    public ReviewMongo() {
     }
 
     public String getId() {
