@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import com.example.demo.security.UserDetailsServiceImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
@@ -17,6 +18,9 @@ public class SareetaApplication {
 	public BCryptPasswordEncoder bCryptPasswordEncoder() {
 		return new BCryptPasswordEncoder();
 	}
+
+	@Bean
+	public UserDetailsServiceImpl userDetailsService() { return new UserDetailsServiceImpl(); }
 
 	public static void main(String[] args) {
 		SpringApplication.run(SareetaApplication.class, args);
