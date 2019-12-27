@@ -2,883 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52573776-f7ad-441f-8f31-c6e9914821e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/.idea/libraries/org_json_json_20080701.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/.idea/libraries/org_seleniumhq_webdriver_webdriver_selenium_0_9_7376.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/target/classes/edu/udacity/java/nano/chat/Message$MessageType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/target/classes/edu/udacity/java/nano/chat/MessageDecoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/target/classes/edu/udacity/java/nano/chat/MessageEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P01-Chatroom/starter_code/target/test-classes/edu/udacity/java/nano/chatroomTestTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P03-ReviewsAPI/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P03-ReviewsAPI/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P03-ReviewsAPI/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P03-ReviewsAPI/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P03-ReviewsAPI/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P03-ReviewsAPI/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P03-ReviewsAPI/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P03-ReviewsAPI/src/main/resources/db/migration/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P03-ReviewsAPI/src/test/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/SareetaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/controllers/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/controllers/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/controllers/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/UserOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/repositories/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/repositories/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/repositories/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/requests/CreateUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/requests/ModifyCartRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../starter_code/src/test/java/com/example/demo/SareetaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P3reviews/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P3reviews/.idea/P3reviews.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P3reviews/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P3reviews/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P3reviews/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P3reviews/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P3reviews/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/Lesson2 (rest apis).iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_spring_orm_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/src/main/java/com/udacity/bootstrap/BootstrapApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/src/main/java/com/udacity/bootstrap/entity/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/src/main/java/com/udacity/bootstrap/repository/LocationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/src/main/java/com/udacity/bootstrap/service/LocationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/src/main/java/com/udacity/bootstrap/service/LocationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/src/main/java/com/udacity/bootstrap/web/LocationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson2-restapis/bootstrap/src/test/java/com/udacity/bootstrap/BootstrapApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/src/main/java/com/udacity/graphql/GraphqlApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/src/main/java/com/udacity/graphql/entity/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/src/main/java/com/udacity/graphql/exception/LocationNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/src/main/java/com/udacity/graphql/mutator/Mutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/src/main/java/com/udacity/graphql/repository/LocationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/src/main/java/com/udacity/graphql/resolver/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/src/main/java/com/udacity/graphql/service/LocationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/src/main/java/com/udacity/graphql/service/LocationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/src/main/java/com/udacity/graphql/web/LocationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/src/main/resources/graphql/location.graphqls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson3-graphql/graphql/src/test/java/com/udacity/graphql/GraphqlApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__joda_time_joda_time_2_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_25_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_aop_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_beans_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_context_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_expression_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_orm_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_test_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_web_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/microservices lesson.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/eureka/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/eureka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/eureka/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/eureka/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/eureka/src/main/java/com/udacity/eureka/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/eureka/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/eureka/src/test/java/com/udacity/eureka/EurekaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/microservices.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/src/main/java/com/udacity/microservices/MicroservicesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/src/main/java/com/udacity/microservices/entity/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/src/main/java/com/udacity/microservices/repository/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/src/test/java/com/udacity/microservices/MicroservicesApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/target/classes/META-INF/microservices.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/target/classes/com/udacity/microservices/MicroservicesApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/target/classes/com/udacity/microservices/entity/Item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/target/classes/com/udacity/microservices/repository/ItemRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/target/classes/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/target/test-classes/META-INF/microservices.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson4-microservices/items/target/test-classes/com/udacity/microservices/MicroservicesApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_spring_orm_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/security.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/src/main/java/com/udacity/security/SecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/src/main/java/com/udacity/security/config/SpringSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/src/main/java/com/udacity/security/entity/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/src/main/java/com/udacity/security/repository/LocationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/src/main/java/com/udacity/security/service/LocationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/src/main/java/com/udacity/security/service/LocationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/src/main/java/com/udacity/security/web/LocationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson5-security/security/src/test/java/com/udacity/security/SecurityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/consuming rest apis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/consuming/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/consuming/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/consuming/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/consuming/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/consuming/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/consuming/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/consuming/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/consuming/src/main/java/com/example/consuming/ConsumingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/consuming/src/main/java/com/example/consuming/entity/Joke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/consuming/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming rest apis/consuming/src/test/java/com/example/consuming/ConsumingApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/consuming soap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__javax_jws_jsr181_api_1_0_MR1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__javax_xml_soap_javax_xml_soap_api_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__javax_xml_soap_saaj_api_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__javax_xml_ws_jaxws_api_2_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_glassfish_javax_annotation_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_services_1_4_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_ws_spring_ws_core_3_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_springframework_ws_spring_xml_3_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/consuming/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/consuming/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/consuming/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/consuming/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/consuming/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/consuming/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/consuming/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/consuming/src/main/java/com/example/consuming/ConsumingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/consuming/src/main/java/com/example/consuming/NumberClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/consuming/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/consuming/src/main/resources/wsdl/NumberConversion.wsdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson6-consuming/consuming soap/consuming/src/test/java/com/example/consuming/ConsumingApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_spring_orm_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/document.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/src/main/java/com/udacity/document/DocumentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/src/main/java/com/udacity/document/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/src/main/java/com/udacity/document/entity/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/src/main/java/com/udacity/document/repository/LocationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/src/main/java/com/udacity/document/service/LocationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/src/main/java/com/udacity/document/service/LocationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/src/main/java/com/udacity/document/web/LocationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/src/test/java/com/udacity/document/DocumentApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/target/classes/com/udacity/document/DocumentApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/target/classes/com/udacity/document/config/SwaggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/target/classes/com/udacity/document/entity/Location.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/target/classes/com/udacity/document/repository/LocationRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/target/classes/com/udacity/document/service/LocationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/target/classes/com/udacity/document/service/LocationServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/target/classes/com/udacity/document/web/LocationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/target/classes/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson7-documenting/target/test-classes/com/udacity/document/DocumentApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_spring_orm_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/src/main/java/com/udacity/test/TestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/src/main/java/com/udacity/test/entity/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/src/main/java/com/udacity/test/repository/LocationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/src/main/java/com/udacity/test/service/LocationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/src/main/java/com/udacity/test/service/LocationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/src/main/java/com/udacity/test/web/LocationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/src/test/java/com/udacity/test/TestApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/src/test/java/com/udacity/test/web/LocationControllerIntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/src/test/java/com/udacity/test/web/LocationControllerUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/target/classes/com/udacity/test/TestApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/target/classes/com/udacity/test/entity/Location.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/target/classes/com/udacity/test/repository/LocationRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/target/classes/com/udacity/test/service/LocationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/target/classes/com/udacity/test/service/LocationServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/target/classes/com/udacity/test/web/LocationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/target/classes/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/target/test-classes/com/udacity/test/TestApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/target/test-classes/com/udacity/test/web/LocationControllerIntegrationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/Lesson8-testing/target/test-classes/com/udacity/test/web/LocationControllerUnitTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/lesson-8-testing/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/lesson-8-testing/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/lesson-8-testing/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/lesson-8-testing/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../udacity-java-lesson8-testing-master/lesson-8-testing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/SareetaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/controllers/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/controllers/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/controllers/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/UserOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/repositories/CartRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/repositories/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/repositories/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/requests/CreateUserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/requests/ModifyCartRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/JWTAuthenticationVerificationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/SecurityConstraints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/WebSecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/test/java/com/example/demo/SareetaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/test/java/com/example/demo/TestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starter_code/src/test/java/com/example/demo/controllers/UserControllerTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../starter_code/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -887,35 +44,65 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jun</find>
+      <find>spring-boot-starter-</find>
+      <find>spring</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../starter_code/src/test/java/com/example/demo/SareetaApplicationTests.java" />
+        <option value="$PROJECT_DIR$/../starter_code/src/test/java/com/example/demo/TestUtils.java" />
+        <option value="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/requests/CreateUserRequest.java" />
+        <option value="$PROJECT_DIR$/../starter_code/src/test/java/com/example/demo/controllers/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/../starter_code/pom.xml" />
+        <option value="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/SareetaApplication.java" />
+        <option value="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/User.java" />
+        <option value="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/SecurityConstraints.java" />
+        <option value="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/JWTAuthenticationVerificationFilter.java" />
+        <option value="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/WebSecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/UserDetailsServiceImpl.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="3440" />
-    <option name="height" value="1440" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="P04-auth-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="starter_code" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -991,48 +178,264 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577210565353</updated>
-      <workItem from="1577210568093" duration="827000" />
+      <workItem from="1577210568093" duration="18528000" />
     </task>
+    <task id="LOCAL-00001" summary="add dependency for slf4j">
+      <created>1577299980139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577299980139</updated>
+    </task>
+    <task id="LOCAL-00002" summary="remove test scope for slf4j">
+      <created>1577300149542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577300149542</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add dependencies for springboot starter security and springframework security">
+      <created>1577340486824</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577340486824</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add dependency for java jwt">
+      <created>1577340777800</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577340777800</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add password and confirmPassword">
+      <created>1577340915755</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577340915755</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add BCryptPasswordEncoder">
+      <created>1577341308736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577341308737</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="827000" />
+    <option name="totallyTimeSpent" value="18528000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="3440" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24985285" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Web" order="3" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.1971917" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Spring" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Java Enterprise" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.32079414" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32962137" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add dependency for slf4j" />
+    <MESSAGE value="remove test scope for slf4j" />
+    <MESSAGE value="add dependencies for springboot starter security and springframework security" />
+    <MESSAGE value="add dependency for java jwt" />
+    <MESSAGE value="add password and confirmPassword" />
+    <MESSAGE value="add BCryptPasswordEncoder" />
+    <option name="LAST_COMMIT_MESSAGE" value="add BCryptPasswordEncoder" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../starter_code/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/controllers/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/test/java/com/example/demo/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/test/java/com/example/demo/controllers/UserControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/controllers/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/requests/CreateUserRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/SareetaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/test/java/com/example/demo/SareetaApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/model/persistence/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/JWTAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="61" column="41" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/JWTAuthenticationVerificationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/SecurityConstraints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/WebSecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../starter_code/src/main/java/com/example/demo/security/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
