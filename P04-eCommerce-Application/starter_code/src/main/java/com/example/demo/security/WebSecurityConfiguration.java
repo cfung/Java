@@ -12,6 +12,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import com.example.demo.security.UserDetailsServiceImpl;
 
 import static com.example.demo.security.SecurityConstraints.SIGN_UP_URL;
 
