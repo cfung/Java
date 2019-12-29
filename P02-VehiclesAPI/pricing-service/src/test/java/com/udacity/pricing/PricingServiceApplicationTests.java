@@ -6,11 +6,14 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
+import org.springframework.test.web.servlet.ResultActions;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringRunner.class)
@@ -27,19 +30,12 @@ public class PricingServiceApplicationTests {
 
 	@Test
 	public void testGetPrice() throws Exception{
-		MvcResult result = mockMvc.perform(get("/prices/1"))
+		mockMvc.perform(get("/services/price")
+                .param("vehicleId", "1"))
 				.andExpect(status().isOk())
-				.andReturn();
-		Assert.assertNotNull(result.getResponse().toString());
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8))
+                .andExpect(content().json("{}"));
+
 	}
-
-	@Test
-	public void testGetAllPrices() throws Exception{
-		mockMvc.perform(get("/prices/"))
-				.andExpect(status().isOk())
-				.andReturn();
-	}
-
-
 
 }
