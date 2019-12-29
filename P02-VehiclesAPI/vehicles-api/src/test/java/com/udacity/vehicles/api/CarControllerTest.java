@@ -81,13 +81,14 @@ public class CarControllerTest {
      */
     @Test
     public void createCar() throws Exception {
-        Car car = getCar();
+        Car car = carService.save(getCar());
         mvc.perform(
                 post(new URI("/cars"))
                         .content(json.write(car).getJson())
                         .contentType(MediaType.APPLICATION_JSON_UTF8)
                         .accept(MediaType.APPLICATION_JSON_UTF8))
                 .andExpect(status().isCreated());
+
     }
 
     /**
@@ -144,7 +145,8 @@ public class CarControllerTest {
 
     @Test
     public void updateCar() throws Exception{
-        Car car = getCar();
+
+        Car car = carService.save(getCar());
         mvc.perform(
                 post(new URI("/cars"))
                         .content(json.write(car).getJson())
