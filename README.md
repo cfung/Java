@@ -4,4 +4,4 @@
 **Project 3:** Build a data store for customer reviews. Build the polyglot persistence layer for a REST API that will support the customer reviews section of a product page in an e-commerce application.
 **Project 4:** Implement authorization for an e-commerce application. Use Jenkins to build a CI/CD pipeline to deploy code to production.
 
-[Nanodegree completion certificate](java_developer_nanodegree.png)
+![](java_developer_nanodegree.png)
